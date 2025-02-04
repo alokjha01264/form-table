@@ -1,0 +1,16 @@
+table,th,td {
+    border: 1px solid black;
+}
+th {
+    background: lightgrey;
+}
+table{
+    width: 100%;
+    height: 500px;
+}
+td {
+    text-align: center;
+}
+#f1{
+    background-color: aqua;
+}

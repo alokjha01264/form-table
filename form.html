@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>HTML Table</h1>
+        <link rel="stylesheet" href="table.css">
+        <script src="table.js"></script>
+    </head>
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <th rowspan="2">Department</th>
+                <th colspan="3">Quarterly Revenue(in $)</th>
+                <th rowspan="2">Annual total</th>
+            </tr>
+            <tr>
+                <th>Q1</th>
+                <th>Q2</th>
+                <th>Q3</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Sales</th>
+                    <td>10,000</td>
+                    <td>12,000</td>
+                    <td>11,500</td>
+                    <td id="SalesTotal" rowspan="2">49,500</td>
+                </tr>
+                <tr id="f1">
+                    <td>11,000</td>
+                    <td>13,500</td>
+                    <td>12,000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Marketing</td>
+                    <td>8,500</td>
+                    <td>9,200</td>
+                    <td>10,000</td>
+                    <td id="MarketingTotal" rowspan="2">40,700</td>
+                </tr>
+                <tr>
+                    <td>9,000</td>
+                    <td>8,800</td>
+                    <td>9,200</td>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td id="ITspend" colspan="3">20,000(Consolidated)</td>
+                    <td id="ITtotal">20,000</td>
+                </tr>
+                <tr>
+                    <td>HR</td>
+                    <td colspan="2">6,000</td>
+                    <td>7,000</td>
+                    <td id="HRtotal">13,000</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Grand Total</th>
+                    <th>123,200</th>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
